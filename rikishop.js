@@ -1,5 +1,5 @@
         // --- Konfigurasi ---
-        WA_ADMIN_NUMBER = "6285820947960"; // Ganti dengan nomor WhatsApp admin Anda!
+        const WA_ADMIN_NUMBER = "6285820947960"; // Ganti dengan nomor WhatsApp admin Anda!
         const WA_SELLER_NUMBER = "6285820947960"; // Ganti dengan nomor WhatsApp seller Anda! (Bisa sama dengan admin)
         const CREATOR_USERNAME = "ARMAN GZ Official"; // Digunakan dalam menu bot, simulasikan config.creator
 
@@ -460,7 +460,7 @@ _QRIS-PULSA_` }
                 const buyNowLink = document.createElement('a');
                 buyNowLink.className = 'buy-now';
                 buyNowLink.textContent = 'Beli Sekarang (WhatsApp)';
-                buyNowLink.href = `https://wa.me/${WA_ADMIN_NUMBER}?text=${encodeURIComponent(`Halo admin Rikishopreal, saya tertarik dengan produk ini:\n\n*${product.nama}*\nHarga: ${formatRupiah(product.harga)}\n\nDeskripsi:\n${product.deskripsiPanjang ? product.deskripsiPanjang.replace(/\|\|/g, '\n').replace(/▪︎/g, '•') : 'Tidak ada deskripsi.'}\n\nMohon info detail pembayarannya.`)}`;
+                buyNowLink.href = `https://wa.me/${WA_ADMIN_NUMBER}?text=${encodeURIComponent(`Halo admin By ARMAN GZ Official, saya tertarik dengan produk ini:\n\n*${product.nama}*\nHarga: ${formatRupiah(product.harga)}\n\nDeskripsi:\n${product.deskripsiPanjang ? product.deskripsiPanjang.replace(/\|\|/g, '\n').replace(/▪︎/g, '•') : 'Tidak ada deskripsi.'}\n\nMohon info detail pembayarannya.`)}`;
                 buyNowLink.target = "_blank";
                 buyNowLink.setAttribute("rel", "noopener noreferrer"); // Tambahkan rel untuk keamanan
                 detailProductActions.appendChild(buyNowLink);
@@ -580,7 +580,7 @@ _QRIS-PULSA_` }
                 return;
             }
 
-            let message = "Halo admin Rikishopreal, saya ingin memesan:\n\n";
+            let message = "Halo admin By ARMAN GZ Official, saya ingin memesan:\n\n";
             let totalOrder = 0;
             cart.forEach((item, index) => {
                 message += `${index + 1}. ${item.name} (${formatRupiah(item.price)}) x ${item.quantity}\n`;
