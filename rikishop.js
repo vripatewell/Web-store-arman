@@ -1,5 +1,5 @@
         // --- Konfigurasi ---
-        const USERNAME_ADMIN = "ArmanGZOffc"; // Ganti dengan nomor WhatsApp admin Anda!
+        WA_ADMIN_NUMBER = "6285820947960"; // Ganti dengan nomor WhatsApp admin Anda!
         const WA_SELLER_NUMBER = "6285820947960"; // Ganti dengan nomor WhatsApp seller Anda! (Bisa sama dengan admin)
         const CREATOR_USERNAME = "ARMAN GZ Official"; // Digunakan dalam menu bot, simulasikan config.creator
 
